@@ -1,4 +1,4 @@
-package variable02;
+package _02_variable;
 
 public class T02_char {
 

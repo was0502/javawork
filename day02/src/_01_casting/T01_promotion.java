@@ -21,6 +21,7 @@ public class T01_promotion {
 		d1 = b1+2;
 		System.out.println(d1);
 
+		
 	}
 
 }

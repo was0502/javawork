@@ -39,7 +39,7 @@ public class T03_castingOp {
 		re = num1/ (double)num2;
 		re = (double)num1 / (double)num2;
 		
-		double re2 = num1/num2
+		double re2 = num1/num2;
 				System.out.println(re2);
 		
 	}

@@ -59,8 +59,6 @@ public class T05_ex02 {
 	    System.out.println(ch2);
 	    System.out.println(ch3);
 	    */
-
-		
 	}
 
 }

@@ -21,19 +21,9 @@ public class T06_exam01 {
 				System.out.println("틀렸습니다. 다시 입력하세요");
 		} while(com != user);
 		
-		//for문을 이용하여 반복 합계 연산
-		System.out.print("5의 배수의 합계는: ");
-		int num = sc.nextInt();
-		for(int i=1; i<=num; i++) {
-			for(int j=5; j<=5; j++) {
-				System.out.println("");
-		int sum = 0;
-		sum += i;
-		}
-			}
-			System.out.println();
-		
-		}
 
+	    
+
+		}
 
 }

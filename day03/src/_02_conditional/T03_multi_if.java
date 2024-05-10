@@ -10,7 +10,7 @@ public class T03_multi_if {
 		int score = sc.nextInt();
 		
 		if(score >= 100 || score < 0)
-			System.out.println("점수를 잘못입력하였습니다");
+			System.out.println("점수를 잘못입력하였습니다.");
 		else if(score >= 90)
 			System.out.println("A학점");
 		else if(score >= 80)

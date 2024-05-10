@@ -26,7 +26,7 @@ public class T04_overlap_if {
 			}else { // 101 ~200
 				System.out.println("101~200사이의 숫자");
 			}
-		} else { // 100 ~ 음수 모두 다ㄿㅎㄴ앟ㅍㄴ으 ㄱㅎㅍ
+		} else { // 100 ~ 음수 모두 다
 			if(num1 < 0) {
 				System.out.println("음수");
 			} else { // 0~100

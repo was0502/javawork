@@ -7,7 +7,7 @@ public class T02_if_else {
 	public static void main(String[] args) {
 		/*
 		 if(조건식 {
-		  조건이 참일 때 샐행할 프로그램
+		  조건이 참일 때 실행할 프로그램
 		  } else {
 		     조건이 거짓일 때 실행할 프로그램
 		  } 

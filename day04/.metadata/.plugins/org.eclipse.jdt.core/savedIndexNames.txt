@@ -1,0 +1,1 @@
+INDEX VERSION 1.134+C:\kr\javawork\day04\.metadata\.plugins\org.eclipse.jdt.core

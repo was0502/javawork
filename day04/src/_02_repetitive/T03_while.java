@@ -45,6 +45,14 @@ public class T03_while {
 			
 		// break : 반복문을 빠져 나온다
 		int count = 0;
+		while(true) {
+			System.out.println(++count);
+			if(count == 5)
+				break;
+		}
+		System.out.println("----------------------");
+		
+		Scanner sc = new Scanner(System.in);
 		/*		while(true) {
 					System.out.println(++count);
 					if(count==5)

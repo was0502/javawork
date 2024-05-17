@@ -43,12 +43,12 @@ class Aaa {
 	// (String num, String...str) : 인자는 1개 이상
 	void method(String name, String...str) {
 		System.out.println("인자가 반드시 1개 이상");
-	}
+
 	// 오류 : 모든 인자는 가변인자에 들어감
 	/*
 	 void method(String...str.
-	 */+
-	 -
+	 */
+	}
 public class T02_main_ConOverloading {
 
 	public static void main(String[] args) {
@@ -58,9 +58,8 @@ public class T02_main_ConOverloading {
 		Aaa a4 = new Aaa(50, 50.1234);
 		a4.method(5);
 		
+	}	
 		
-		
-	}
 	}
 
 }

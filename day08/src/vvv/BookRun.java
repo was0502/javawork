@@ -1,44 +1,47 @@
 package kr.co.tjeun.run;
 
-import java.util.Scanner;
+import java.awt.print.Book;
 
-import kr.co.tjeun.domain.book;
+import java.util.Scanner;
 
 public class BookRun {
 
 	public static void main(String[] args) {
 		// 1. 기본생성자로 객체를 생성하여 getter/setter메소드로 값 초기화
 				// 초기화 방법1. 기본생성자로 객체를 생성하여 getter/setter메소드로 값 초기화
-		 		Book book = new Book();
-				book.setTitle("JAVA");
-				book.setAuthor("김주영");
-				book.setPrice(35000);
-				book.setPublisher("tjeun");
-				System.out.println(book.information());
+		/*
+		Book book = new Book();
+		book.setTitle("JAVA");
+		book.setAuthor("김주영");
+		book.setPrice(35000);
+		book.setPublisher("tjeun");
+		System.out.println(book.information());
 		
-				// 초기화 방법 2. 매개변수가 있는 생성자 이용
-				Book book2 = new Book("springBook", "이강도", 27000,"저강도");
-				System.out.println(book2.information());
-				
-				// 사용자로 부터 값을 입력받아 초기화 하여 출력하기
-				Scanner sc = new Scanner(System.in);
-				
-				System.out.println("책제목 입력 : ");
-				String title = sc.nextLine();
-				
-				System.out.println("저자 입력 : ");
-				String author = sc.nextLine();
-				
-				System.out.println("가격 입력 : ");
-				int price2 = sc.nextInt();
-				sc.nextLine();
-				
-				System.out.println("출판사 입력 : ");
-				String publisher2 = sc.nextLine();
-			//관리 해야 되는데 일반 변수 사용
-			book book1 = null;
-			book book2 = null;
-			book book3 = null;
+		// 초기화 방법 2. 매개변수가 있는 생성자 이용
+		Book book2 = new Book("springBook", "이강도", 27000,"저강도");
+		System.out.println(book2.information());
+		
+		// 사용자로 부터 값을 입력받아 초기화 하여 출력하기
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("책제목 입력 : ");
+		String title = sc.nextLine();
+		
+		System.out.println("저자 입력 : ");
+		String author = sc.nextLine();
+		
+		System.out.println("가격 입력 : ");
+		int price2 = sc.nextInt();
+		sc.nextLine();
+		
+		System.out.println("출판사 입력 : ");
+		book4.setPublisher(sc.nextLine());
+		*/
+		//관리 해야 되는데 일반 변수 사용
+		book book1 = null;
+		book book2 = null;
+		book book3 = null;
+		Scanner sc = new Scanner(System.in);
 			
 			for(int i=0; i<3; i++) {
 				System.out.println(i+1 + "번째 도서 정보 입력");
@@ -55,7 +58,7 @@ public class BookRun {
 				String publisher = sc.nextLine();
 				
 				if(i == 0)
-					bookl = new Book(title, author, price, publisher);
+					book1 = new Book(title, author, price, publisher);
 				else if(i == 1)
 					book2 = new Book(title, author, price, publisher);
 				else

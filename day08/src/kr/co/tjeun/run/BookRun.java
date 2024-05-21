@@ -1,8 +1,8 @@
 package kr.co.tjeun.run;
 
-import java.awt.print.Book;
-
 import java.util.Scanner;
+
+import kr.co.tjeun.domain.book;
 
 public class BookRun {
 
@@ -45,16 +45,18 @@ public class BookRun {
 			
 			for(int i=0; i<3; i++) {
 				System.out.println(i+1 + "번째 도서 정보 입력");
+				
+				System.out.print("책제목 입력 : ");
 				String title = sc.nextLine();
 				
-				System.out.println("저자 입력 : ");
+				System.out.print("저자 입력 : ");
 				String author = sc.nextLine();
 				
-				System.out.println("가격 입력 : ");
+				System.out.print("가격 입력 : ");
 				int price = sc.nextInt();
 				sc.nextLine();
 				
-				System.out.println("출판사 입력 : ");
+				System.out.print("출판사 입력 : ");
 				String publisher = sc.nextLine();
 				
 				if(i == 0)
@@ -70,7 +72,7 @@ public class BookRun {
 			System.out.println(book3.information());
 			
 			// 도서 제목으로 검색하는 서비스
-			System.out.println("검색할 책 제목 : ");
+			System.out.print("검색할 책 제목 : ");
 			String search = sc.next();
 			
 			if(book1.getTitle().equals(search)) {
@@ -78,7 +80,7 @@ public class BookRun {
 			}
 			
 			if(book2.getTitle().equals(search)) {
-				System.out.println(book1.information());
+				System.out.println(book2.information());
 			}
 			
 			if(book3.getTitle().equals(search)) {

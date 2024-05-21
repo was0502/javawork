@@ -8,11 +8,11 @@ public class BookArrayRun {
 
 	public static void main(String[] args) {
 		Book[] books = new Book[3];
-		Scanner sc = new Scanner(System.in)
+		Scanner sc = new Scanner(System.in);
 		
 		for(int i=0; i<books.length; i++) {
 			System.out.println(i+1 + "번째 도서 정보 입력 : ");
-			System.out.println("책제목 입력 : ");
+			System.out.print("책제목 입력 : ");
 			String title = sc.nextLine();
 			
 			System.out.print("저자 입력 : ");
@@ -39,12 +39,13 @@ public class BookArrayRun {
 		}*/
 		
 		// 도서 제목으로 검색하는 서비스
-		System.out.println("검색할 도서명 : ");
+		System.out.print("검색할 도서명 : ");
 		String search = sc.next();
 		
 		for(int i=0; i<books.length; i++) {
 			if(search.equals(books[i].getTitle()))
-				System.out.println(book[i].information());
+				System.out.println(books[i].information());
 		}
+	}
 	
 }

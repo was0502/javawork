@@ -1,9 +1,9 @@
 package kr.co.tjeun.domain;
 
 // 자바빈 파일
-// 속성, 생성자, getter/setter로 이루어져 있음
-// 속성에 데이터를 담거나 보내주는 역할을 담당
-public class book {
+//  속성, 생성자, getter/setter 로 이루어져 있음
+//  속성에 데이터를 담거나 보내주는 역할을 담당
+public class Book {
 	// 도서명, 저자명, 가격, 출판사
 	private String title;
 	private String author;
@@ -18,7 +18,7 @@ public class book {
 		this.price = price;
 		this.publisher = publisher;
 	}
-	 
+	
 	public String getTitle() {
 		return title;
 	}

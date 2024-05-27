@@ -1,7 +1,8 @@
 package _01_langPackage;
 
 /*
-class Point implements Cloneable {
+ class Point implements Cloneable {
+ 
 	int x;
 	int y;
 	Point() { }
